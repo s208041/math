@@ -10,7 +10,7 @@ st.write('음수?? 어렵지않아!')
 
 
 col1, col2 = st.columns(2)       
- 왼쪽 문단
+ 
 with col1:
       st.subheader('**개념정리')
       st.write('- 양수: 0보다 큰 수')      
