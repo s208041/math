@@ -2,7 +2,7 @@
 import streamlit as st      
 
 
-st.title('동생아 '수학 공부하자!')  
+st.title('동생아 수학 공부하자!')  
 
 st.subheader('오늘의 주제: 양수와 음수')
 
