@@ -8,7 +8,7 @@ st.subheader('오늘의 주제: 양수와 음수')
 
 st.write('음수?? 어렵지않아!') 
 
-# 여러 개의 열(문단)을 생성
+ 여러 개의 열(문단)을 생성
 col1, col2 = st.columns(2)       
  왼쪽 문단
 with col1:
@@ -27,8 +27,8 @@ a = st.number_input('수를 입력하세요', value= 0)
  버튼 생성 및 동작
 if st.button('양수일까 음수일까?'):
        if a > 0:
-              st.write('양수입니다.')
+              st.write('양수입니다')
        elif a < 0:
-              st.write('음수입니다.')
+              st.write('음수입니다')
        else:
              st.write('0입니다.')
