@@ -8,7 +8,7 @@ st.subheader('오늘의 주제: 양수와 음수')
 
 st.write('음수?? 어렵지않아!') 
 
- 여러 개의 열(문단)을 생성
+
 col1, col2 = st.columns(2)       
  왼쪽 문단
 with col1:
