@@ -1,11 +1,11 @@
 # streamlit 라이브러리 불러오기
 import streamlit as st      
 
-# 제목 쓰기
+
 st.title('동생아 '수학 공부하자!')  
-# 부제목 쓰기
+
 st.subheader('오늘의 주제: 양수와 음수')
-# 본문 쓰기
+
 st.write('음수?? 어렵지않아!') 
 
 # 여러 개의 열(문단)을 생성
